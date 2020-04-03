@@ -9,11 +9,31 @@
 </head>
 
 <body>
-    <div>
+
+    <div class="wrapper">
+        <div class="infos">
+            <h1 class="title">Character Counter</h1>
+            <div>
+                <p>TOOL TO COUNT CHARACTERS AND WORDS IN A TEXT</p>
+            </div>
+        </div>
+
         <textarea class="text-field" id="text-field"></textarea>
-        <p id="wordleng"></p>
+
+        <div class="info">
+            <div class="words">
+                <p class="ammount" id="wordleng"></p>
+                <p class="textforinfo">CHARACTERS</p>
+            </div>
+
+            <div class="words">
+                <p class="ammount" id="words"></p>
+                <p class="textforinfo">WORDS</p>
+            </div>
+        </div>
+
     </div>
-    
+
     <script src="./scripts/main.js"></script>
 </body>
 
